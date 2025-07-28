@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact – Baki Photography</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="sig/logo2.PNG" alt="Baki Photography Logo">
+      <h1>Baki Photography</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.php">Portfolio</a></li>
+        <li><a href="pricing.html">Pricing & Booking</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h2 style="text-align: center;" padding=" 10px">Let's Connect</h2>
+    <p>Have questions or want to plan something special? Reach out below and I'll get back to you shortly.</p>
+
+    <form action="https://formspree.io/f/mvgqrgkj" method="POST" style="text-align: start;">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">How Can I Help?</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      <p>📧 Email: <a href="mailto:info@bakiphotography.com">info@bakiphotography.com</a></p>
+      <p>📞 Phone: (123) 456‑7890</p>
+      <p>📍 Based in Florida, available for travel</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Baki Photography. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Login – Baki Photography</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <section class="login-panel">
+    <h2>Admin Login</h2>
+
+    <!-- Show error if login fails -->
+    <?php if (isset($_GET['error'])): ?>
+      <p style="color: #ff6b6b; font-weight: bold;">Incorrect username or password.</p>
+    <?php endif; ?>
+
+    <form action="dashboard.php" method="POST">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit" class="btn">Login</button>
+    </form>
+  </section>
+</body>
+</html>

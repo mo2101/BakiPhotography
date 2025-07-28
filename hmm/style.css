@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 60px;
+    margin-right: 15px;
+    scale: 2.0;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  nav ul li a {
+    color: #f0b27a;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.active {
+    color: #ff944d;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 120px 30px;
+    background: linear-gradient(to right, #1a1a1a, #292929);
+  }
+  
+  .hero h2 {
+    font-size: 2.5em;
+    color: #ffb266;
+    text-align: center;
+  }
+  
+  .hero p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #ffd1a9;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #e67e22;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #cf711f;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    font-size: 0.9em;
+    color: #ccc;
+  }
+  
+  /* Portfolio Gallery */
+  .portfolio .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .portfolio .photo img {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    transition: transform 0.3s;
+  }
+  
+  .portfolio .photo img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Pricing Section */
+  .pricing, .booking, .contact, .admin-panel {
+    padding: 40px;
+    background-color: #1a1a1a;
+  }
+  
+  .pricing h2, .booking h2, .contact h2, .admin-panel h2 {
+    text-align: center;
+    color: #ffa64d;
+  }
+  
+  .package {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  }
+  
+  .package h3 {
+    margin-top: 0;
+    color: #ffcc80;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input, textarea, select {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .contact-info {
+    text-align: center;
+    margin-top: 30px;
+    color: #ffd1a9;
+  }
+  
+  .map iframe {
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  
+  .login-panel {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .login-panel form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #2a2a2a;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  }
+  
+  .admin-panel ul {
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  }
+  
+  .admin-panel ul li {
+    padding: 15px;
+    border-bottom: 1px solid #3c3c3c;
+    text-align: center;
+  }
+  
+  .admin-panel ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .admin-panel ul li a {
+    color: #f0b27a;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  .admin-panel ul li a:hover {
+    color: #ff944d;
+  }
+  .h2{
+    text-align: center;
+  }
+  

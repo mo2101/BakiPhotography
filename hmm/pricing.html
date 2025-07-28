@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pricing & Booking – Baki Photography</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="sig/logo2.PNG" alt="Baki Photography Logo">
+      <h1>Baki Photography</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.php">Portfolio</a></li>
+        <li><a href="pricing.html" class="active">Pricing & Booking</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="pricing">
+    <h2>Pricing Packages</h2>
+    <div class="package">
+      <h3>Portrait Session</h3>
+      <p>$150 - 1 hour session, 10 edited photos</p>
+    </div>
+    <div class="package">
+      <h3>Event Coverage</h3>
+      <p>$350 - 3 hour coverage, 50 edited photos</p>
+    </div>
+    <div class="package">
+      <h3>Couples Shoot</h3>
+      <p>$200 - 90 minutes, 20 edited photos</p>
+    </div>
+  </section>
+
+  <section class="booking">
+    <h2>Book Your Session</h2>
+    <form action="https://formspree.io/f/mvgqrgkj" method="POST">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="date">Preferred Date</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time">Preferred Time</label>
+      <input type="time" id="time" name="time" required>
+
+      <label for="location">Location</label>
+      <input type="text" id="location" name="location" required>
+
+      <label for="occasion">Occasion</label>
+      <select id="occasion" name="occasion" required>
+        <option value="">Select an option</option>
+        <option value="portrait">Portrait</option>
+        <option value="event">Event</option>
+        <option value="couple">Couple</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="notes">Additional Notes</label>
+      <textarea id="notes" name="notes" rows="4"></textarea>
+
+      <button type="submit" class="btn">Submit Booking</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Baki Photography. All rights reserved.</p>
+  </footer>
+</body>
+</html>

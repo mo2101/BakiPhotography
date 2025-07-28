@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload Photos – Baki Admin</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="../images/logo.PNG" alt="Logo" height="50">
+      <h1>Upload Photos</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="dashboard.php">Dashboard</a></li>
+        <li><a class="active" href="upload.html">Upload</a></li>
+        <li><a href="manage.php">Manage</a></li>
+        <li><a href="logout.php">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="booking">
+    <h2>Upload a New Photo</h2>
+    <form action="upload.php" method="POST" enctype="multipart/form-data">
+      <input type="file" name="photo" accept="image/*" required>
+      <button type="submit" class="btn">Upload</button>
+    </form>
+  </section>
+</body>
+</html>
